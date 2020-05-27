@@ -1,8 +1,11 @@
 import Logo from '../Logo.vue'
 
-export default { title: 'Logo' }
+export default {
+  component: Logo,
+  title: 'Logo'
+}
 
-export const basic = () => ({
+export const LogoStory = () => ({
   components: { Logo },
-  template: '<logo />'
+  template: `<Logo />`
 })
